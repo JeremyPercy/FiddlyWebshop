@@ -1,0 +1,34 @@
+// Fonts website
+// Google font
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+$font-family-default: 'Montserrat', sans-serif;
+
+//  Primary Colors
+$mainBlue: #2AB5CA;
+$secondaryBlue: #2542A2;
+$mainOrange: #FD9843;
+$mainRed : #F5384F;
+$darkGray: #2B3538;
+$deepGray: #404F54;
+$mainGrey: #B0B9BE;
+$lightGrey: #EDF1F2;
+$blue:    #379FE3;
+$red:     #F5384F;
+$orange:  #FDC100;
+$yellow:  #FDC100 !default;
+$green:   #8BC34A;
+$cyan:    #379FE3 !default;
+
+// Default gradients
+
+$gradientBlue: 45deg, #2AB5CA, #178EDB;
+$gradientOrange: 45deg, #F99F00, #DB3069;
+$gradientPurple: 45deg, #3023AE, #C86DD7;
+
+// Font colors
+$colorText: $deepGray;
+$colorHeaderText: $deepGray;
+
+// a.
+$colorLink: $mainGrey;

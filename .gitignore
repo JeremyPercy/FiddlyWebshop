@@ -1,0 +1,26 @@
+### yarn ###
+/node_modules
+
+### System ###
+*.DS_Store
+*Thumbs.db
+/yarn-error.log
+
+### Build ###
+public/css
+public/js
+public/images
+public/.htaccess
+/yarn.lock
+dist/styleguide
+/styleguide
+/vendor
+
+### Dev ###
+app/config/config.php
+gulp-config.json
+config.codekit
+*.sublime-project
+*.sublime-workspace
+.idea/
+.vscode/

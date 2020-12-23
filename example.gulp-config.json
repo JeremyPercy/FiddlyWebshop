@@ -1,0 +1,21 @@
+{
+  "templates": "app/views/**/*.php",
+  "styles": {
+    "src": "src/scss/**/*.scss",
+    "dist": "public/css",
+    "watch": "src/scss/**/*.scss"
+  },
+  "js": {
+    "src": "src/js/**/*.js",
+    "dist": "public/js",
+    "watch": "src/js/**/*.js"
+  },
+  "images": {
+    "src": "src/images/**/*",
+    "dist": "public/images"
+  },
+  "options": {
+    "localURL": "",
+    "dir": "public/"
+  }
+}

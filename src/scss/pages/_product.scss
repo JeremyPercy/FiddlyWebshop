@@ -1,0 +1,55 @@
+.recommended-product,
+.product-info{
+  &__headings{
+    h1{
+      font-size: 30px;
+    }
+    h3{
+      font-weight: 400;
+    }
+  }
+
+  &__stars{
+    .filled{
+      color: $mainBlue;
+    }
+    color: $mainGrey;
+  }
+
+  &__price{
+    margin: 15px 0;
+    font-size: 25px;
+    color: $darkGray;
+
+    span.price{
+      font-weight: bold;
+      margin: inherit;
+    }
+  }
+}
+
+hr{
+  margin: 40px 0px;
+}
+
+.recommended-product{
+  &__price{
+    font-size: 15px;
+
+    span.price{
+      font-weight: normal;
+    }
+  }
+
+  &__text{
+    margin: 15px 0;
+  }
+}
+
+a.overlay-link{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

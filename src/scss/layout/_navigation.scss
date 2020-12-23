@@ -1,0 +1,67 @@
+// Main navigation
+.navcustom {
+  font-size: 1.4rem;
+  color: $mainGrey;
+
+  .navbar-brand {
+    margin-right: 14rem;
+    padding-bottom: 3.5rem;
+  }
+
+  &--bg-custom {
+    background-color: $white;
+    z-index: 9999;
+  }
+  .nav-link {
+    color: $mainGrey !important;
+    padding-bottom: 3.5rem;
+    margin-bottom: -1rem;
+
+    &:hover {
+      color: $mainBlue !important;
+      font-weight: 600;
+      @media (min-width: 992px) {
+        border-bottom: $mainBlue solid .3rem;
+      }
+    }
+    &:active {
+      color: $mainBlue !important;
+      font-weight: 600;
+      @media (min-width: 992px) {
+        border-bottom: $mainBlue solid .3rem;
+      }
+
+    }
+
+    @media (min-width: 992px) {
+      margin-right: 3rem;
+    }
+  }
+
+  .notification {
+    position: absolute;
+    top: .2rem;
+    right: 1rem;
+    background-color: $mainBlue;
+    border-radius: 50%;
+    font-size: 1rem;
+    color: $white;
+    width: 1.7rem;
+    text-align: center;
+  }
+}
+
+// For items which dont use the bottom border in the navigation.
+.no-border {
+  &:hover {
+    border-bottom: none !important;
+  }
+}
+
+// When user is logged in, dropdown menu
+.dropdown-item {
+  font-size: 1.6rem;
+  color: $mainGrey;
+  padding: 1rem 4rem;
+}
+

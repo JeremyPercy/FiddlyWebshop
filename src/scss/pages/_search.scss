@@ -1,0 +1,134 @@
+.search-form{
+    padding: 24px 0;
+    background: #fff;
+    bottom: 0;
+    color: #000;
+
+    @include media-breakpoint-up(md){
+        position: absolute;
+        left: 100%;
+        overflow: hidden;
+        top: 0;
+        width: 0;
+        z-index: 15;
+        transition: left .3s 0ms,width 0ms .3s;
+    }
+}
+
+.search {
+    position: relative;
+
+    i {
+        position: relative;
+        z-index: 15;
+        vertical-align: top !important;
+        margin-top: -1px;
+        color: $mainBlue;
+
+        &.fa-times {
+            margin-left: 5px;
+        }
+    }
+
+    .search-toggle {
+        text-align: center;
+    }
+
+
+    .search-form {
+        padding: 10px 0;
+        background: white;
+        bottom: 0;
+        color: #000;
+        transform: translateY(-30%);
+
+        @include media-breakpoint-only(sm){
+            position: relative;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: auto;
+            display: inline-block;
+        }
+
+        @include media-breakpoint-up(md){
+            position: absolute;
+            left: 100%;
+            overflow: hidden;
+            top: 0;
+            width: 0;
+            z-index: 15;
+            transition: left 0.3s 0.0s, width 0.0s 0.3s;
+        }
+
+        &.active {
+            left: -470px;
+            width: 470px;
+            transition: left 0.3s 0.0s, width 0.0s 0.0s;
+
+            @media (min-width: 1200px) {
+                left: -540px;
+                width: 530px;
+            }
+
+            @media (min-width: 1400px) {
+                left: -645px;
+                width: 664px;
+            }
+        }
+
+        label {
+            float: left;
+            width: auto;
+            height: 45px;
+            line-height: 45px;
+            margin: 0;
+            padding: 0 15px;
+            color: #000;
+            background: $deepGray;
+            text-align: left;
+            color: #767676;
+
+            @include media-breakpoint-only(xs){
+                background: transparent;
+                padding: 0;
+                width: 100%;
+                font-size: 17px;
+                font-weight: bold;
+            }
+
+
+        }
+
+        input {
+            float: left;
+            height: 45px;
+            width: 230px;
+            border: 0;
+            padding: 0 20px;
+            color: #000;
+            background: #ebeff8;
+
+            &:focus {
+                outline: none;
+            }
+
+            @media (min-width: 1200px) {
+                width: 290px;
+            }
+
+            @media (min-width: 1400px) {
+                width: 390px;
+            }
+        }
+
+    }
+}
+
+
+.search-btn{
+    float: right;
+    top: -41px;
+    position: relative;
+}

@@ -1,0 +1,47 @@
+.register {
+  color: $white;
+
+  .return {
+    margin-top: 4rem;
+    margin-left: 4rem;
+
+
+
+    &--link {
+      color: #fff;
+      font-weight: 300;
+    }
+  }
+
+  &__form {
+    @include center-center;
+    margin-top: 15rem;
+
+    &__ul {
+      list-style: none;
+    }
+    &__links {
+      color: $mainGrey;
+      font-size: 1.8rem;
+      font-weight: 400;
+      padding-bottom: 1rem;
+      list-style: none;
+
+      &:hover {
+        color: $white;
+        text-decoration: none;
+        border-bottom: 0.3rem solid $mainBlue;
+        padding-bottom: 1rem;
+      }
+      &--active {
+        color: $white;
+        text-decoration: none;
+        border-bottom: 0.3rem solid $mainBlue;
+        padding-bottom: 1rem;
+      }
+    }
+    &__input {
+
+    }
+  }
+}

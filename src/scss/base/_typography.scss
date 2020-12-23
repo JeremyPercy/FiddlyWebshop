@@ -1,0 +1,25 @@
+h1 {
+  font-size: 5.4rem;
+  font-weight: 700;
+  &.heading {
+    text-align: center;
+    margin: 8rem auto 4rem;
+
+    &--light {
+      color: $white;
+    }
+
+    &--dark {
+      color: $deepGray;
+    }
+  }
+
+  @media (max-width: 768px) {
+    font-size: 3.4rem;
+  }
+
+}
+
+.text-maingrey{
+  color: $mainGrey;
+}

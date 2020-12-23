@@ -1,0 +1,40 @@
+{
+  "name": "Fiddly",
+  "version": "1.0.0",
+  "description": "2018",
+  "main": "index.html",
+  "repository": "/",
+  "author": "Jeremy Batten",
+  "license": "MIT",
+  "scripts": {
+    "start": "composer install && yarn install && gulp"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "gulp",
+    "browser-sync"
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "browser-sync": "^2.23.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-babel-minify": "^0.4.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "kss": "^3.0.0-beta.18",
+    "michelangelo": "^0.7.0"
+  }
+}

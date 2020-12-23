@@ -1,0 +1,76 @@
+.chat {
+  padding-bottom: 2rem;
+  overflow: hidden;
+  &__background {
+    &--color{
+      background-color: $lightGrey;
+    }
+  }
+  &__text {
+      margin-top: 8rem;
+      color: $darkGray;
+  }
+}
+
+.features{
+  @include media-breakpoint-up(lg) {
+    background-image: url(../images/content/Devicelaptop.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 200px 0px;
+  }
+
+  &--list{
+    &--item {
+      &__text {
+        @include media-breakpoint-down(lg) {
+          text-align: center;
+        }
+        padding: 15px 0px;
+      }
+    }
+  }
+
+  &--learnmore {
+    margin: 25px 0px;
+    @include media-breakpoint-down(lg) {
+      text-align: center;
+    }
+    a.learnMore {
+      color: $mainBlue;
+      text-decoration: underline;
+      padding: 25px 10px 25px 0px;
+
+    }
+  }
+
+  svg.fa-arrow-right{
+    color: $mainGrey;
+  }
+}
+
+.download-app{
+  &__mapleft{
+    position: absolute;
+    transform: translateY(27%);
+  }
+
+  &__mapright{
+      position: absolute;
+      transform: translateY(35%);
+      max-width: 550px;
+      right: 0px;
+  }
+
+  &--text{
+    &.white-bg{
+      background-color: white;
+    }
+  }
+  &--appstores{
+    margin: 50px 0px;
+    &__img{
+      margin: 15px 0px;
+    }
+  }
+}

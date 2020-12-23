@@ -1,0 +1,28 @@
+.btn {
+  color: $white;
+  text-transform: uppercase;
+  padding: 1.2rem;
+  &--round {
+    border-radius: 2.7rem;
+  }
+  &--blue {
+    background-color: $mainBlue;
+  }
+
+  &--orange {
+    background-color: $mainOrange;
+  }
+
+  &--red {
+    background-color: $mainRed;
+  }
+
+  &--wide {
+    width: 26rem;
+  }
+  &:hover {
+    background-color: $lightGrey;
+    color: $mainBlue;
+  }
+
+}

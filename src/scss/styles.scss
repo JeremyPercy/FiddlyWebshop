@@ -1,0 +1,40 @@
+//Custom variables and mixins
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+//Custom scss
+
+// Base styles
+@import "base/global";
+@import "base/typography";
+
+// Component styles
+@import "components/buttons";
+@import "components/images";
+@import "components/forms";
+@import "components/backgrounds";
+@import "components/icons";
+
+// Layout styles
+@import "layout/header";
+@import "layout/footer";
+@import "layout/navigation";
+@import "layout/hero";
+
+// Module styles
+
+// Page styles
+@import "pages/home";
+@import "pages/product";
+@import "pages/register";
+@import "pages/search";
+@import "pages/findFiddly";
+@import "pages/addProduct";
+@import "pages/aboutUs";
+
+
+// Vendors

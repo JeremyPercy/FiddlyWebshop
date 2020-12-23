@@ -1,0 +1,92 @@
+
+.footer {
+  display: flex;
+  background-color: $deepGray;
+  text-align: center;
+  padding: 4rem 0 0 0;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  &__logo-box {
+    margin-top: 3rem;
+  }
+  &__logo {
+    height: 3.4rem;
+    width: 17.9rem;
+    margin-bottom: 4rem;
+  }
+  &__social-icons-container {
+
+    .social-icons {
+      list-style: none;
+      text-align: center;
+      margin: 1rem;
+      display: flex;
+      flex-flow: wrap row;
+      justify-content: center;
+      margin-bottom: 5rem;
+
+      &__item {
+        margin-right: 2rem;
+
+        a {
+          &:hover {
+            color: $mainBlue;
+          }
+        }
+
+      }
+
+    }
+
+  }
+  &__text-container {
+    width: 55rem;
+    margin: 0 auto 4rem;
+  }
+  &__form {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: $white;
+    border-radius: 100px;
+    padding: 3px;
+    width: 37rem;
+    align-content: stretch;
+    margin: 0 auto 4rem;
+
+    &__input {
+      text-decoration: none;
+      border-radius: 100px;
+      color: $colorText;
+      font-size: 1.25rem;
+      line-height: 2;
+      width: 22.5rem;
+      border: none;
+      margin-right: 14px;
+      padding-left: 20px;
+
+      &:focus {
+        outline-color: transparent;
+        outline-style: none;
+      }
+      &::placeholder {
+        color: #B0B9BE;
+        opacity: 1;
+      }
+    }
+  }
+
+  &__bottom {
+    display: block;
+    padding: 1rem;
+    background-color: rgba(43, 53, 56, 0.30);
+    font-weight: 100;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}

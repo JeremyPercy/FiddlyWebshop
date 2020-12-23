@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-family-default;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: $colorText;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 28rem;
+
+
+}
+
+a {
+  color: $colorLink;
+  text-decoration: none;
+  transition: color .2s;
+
+  &:hover {
+    color: $mainBlue;
+  }
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: $colorHeaderText;
+}
+
+span {
+ }
